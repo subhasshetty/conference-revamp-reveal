@@ -11,7 +11,7 @@ const CardGrid = () => {
       description: "Early bird registration fees are $175 for adults, $125 for students, and $90 for seniors. Register early to secure your spot and get the best price.",
       bgColor: "bg-blue-600",
       btnText: "Register Now",
-      btnVariant: "secondary",
+      btnVariant: "secondary" as const, // Fixed type issue by using 'as const'
       icon: "/lovable-uploads/a55f5b18-2d19-4977-a43a-433b0559383b.png"
     },
     {
@@ -19,8 +19,8 @@ const CardGrid = () => {
       title: "Donate & Sponsor",
       description: "Your support will help improve events and create a better conference for everyone. Lets make this the best event ever.",
       bgColor: "bg-red-700",
+      btnVariant: "secondary" as const, // Fixed type issue
       btnText: "Become a Sponsor",
-      btnVariant: "secondary",
       icon: "/lovable-uploads/a55f5b18-2d19-4977-a43a-433b0559383b.png"
     },
     {
@@ -29,7 +29,7 @@ const CardGrid = () => {
       description: "Nominate individuals who have made extraordinary contributions to their field, language, and traditions.",
       bgColor: "bg-purple-800",
       btnText: "Submit Nomination",
-      btnVariant: "secondary",
+      btnVariant: "secondary" as const, // Fixed type issue
       icon: "/lovable-uploads/a55f5b18-2d19-4977-a43a-433b0559383b.png"
     },
     {
@@ -38,7 +38,7 @@ const CardGrid = () => {
       description: "Find hotel recommendations and special discounts for our event attendees.",
       bgColor: "bg-amber-900",
       btnText: "View Options",
-      btnVariant: "secondary",
+      btnVariant: "secondary" as const, // Fixed type issue
       icon: "/lovable-uploads/a55f5b18-2d19-4977-a43a-433b0559383b.png"
     },
     {
@@ -47,7 +47,7 @@ const CardGrid = () => {
       description: "Submit your articles for the special July 2024 edition showcasing our conference and community.",
       bgColor: "bg-amber-600",
       btnText: "Learn More",
-      btnVariant: "secondary",
+      btnVariant: "secondary" as const, // Fixed type issue
       icon: "/lovable-uploads/a55f5b18-2d19-4977-a43a-433b0559383b.png"
     },
     {
@@ -56,7 +56,7 @@ const CardGrid = () => {
       description: "Showcase your talent at our cultural performance evening. Apply now to be part of this special event.",
       bgColor: "bg-rose-800",
       btnText: "Apply Now",
-      btnVariant: "secondary",
+      btnVariant: "secondary" as const, // Fixed type issue
       icon: "/lovable-uploads/a55f5b18-2d19-4977-a43a-433b0559383b.png"
     }
   ];
